@@ -1,0 +1,10 @@
+.hero {
+    background: url("/images/banner.jpg") center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
