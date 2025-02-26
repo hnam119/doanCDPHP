@@ -2,7 +2,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <img src="images/bannerGT.jpg" alt="Hero Image" class="img-fluid">
+            <img src="images/bannerGT.jpg" alt="">
             <h1>Chào mừng đến với SportStore</h1>
             <p>Cửa hàng chuyên cung cấp đồ thể thao chất lượng cao</p>
             <a href="#features" class="btn btn-primary">Tìm hiểu ngay</a>

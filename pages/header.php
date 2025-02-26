@@ -14,7 +14,7 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <img
-                            src="images/banner2.jpg"
+                            src="images/banner.jpg"
                             class="w-100 d-block" height="400px"
                             alt="First slide" />
                     </div>

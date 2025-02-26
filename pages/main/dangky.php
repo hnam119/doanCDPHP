@@ -9,6 +9,7 @@
         if($sql_dangky){
             echo '<script>alert("Đăng ký thành công.");</script>';
             $_SESSION['dangky'] = $tenkhachhang;
+            $_SESSION['id_khachhang'] = mysqli_insert_id($mysqli);;
             // header("Location:index.php?quanly=giohang");
             echo '<script>window.location.href="index.php?quanly=giohang";</script>';
             exit;
@@ -19,7 +20,7 @@
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <div class="card">
-                <div class="card-header text-center">
+                <div class="card-header">
                     Đăng ký thành viên
                 </div>
                 <div class="card-body">
